@@ -9,8 +9,12 @@ namespace Game
     [SerializeField] 
     private GameManager _gameManager;
 
+    internal GameManager GameManager => _gameManager;
+
     [SerializeField] 
     private GameResource _resource;
+
+    internal GameResource Resource => _resource;
 
     [SerializeField] private TextMeshProUGUI _text;
 
